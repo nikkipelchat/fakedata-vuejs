@@ -1,9 +1,14 @@
 <script setup>
+import PageTitle from '@/components/PageTitle.vue'
 import TableRow from '@/components/TableRow.vue'
 import { educationData } from '@/helpers/data.js'
 </script>
 
 <template>
+  <PageTitle
+    background-title="Example table"
+    foreground-title="TABLE"
+  />
   <section>
     <div class="items-center justify-center m-5 w-max rounded-lg overflow-hidden">
       <table class="table-auto">

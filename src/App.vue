@@ -29,6 +29,10 @@ onMounted(() => {
         <TableContentView />
       </div>
 
+      <!-- Add button example -->
+
+      <!-- Add some responsive example of some blocks -->
+
       <div id="footer" class="h-20">
         <LayoutFooter />
       </div>
